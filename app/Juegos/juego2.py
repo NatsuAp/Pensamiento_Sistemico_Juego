@@ -5,7 +5,7 @@ import app.setPage as setPage
 def deployJuego2():
     if "ls" not in st.session_state:
         st.session_state.ls = False
-    st.header("Juego - Bipolaridad", divider= True)
+    st.header("Juego - Polaridad", divider= True)
     st.subheader("Instrucciones")
     st.write("""Lea el ciclo e identifique si se trata de una bipolaridad positiva o negativa """)
     loadScratch()
@@ -14,7 +14,7 @@ def deployJuego2():
         setPage.page = "main"
         st.rerun()
 def loadScratch():
-    html_path = Path("utils/Scratch/Proyecto Scratch.html")
+    html_path = Path("utils/Scratch/NEXUS SWAP.html")
     if html_path.exists():
         components.html(html_path.read_text(encoding="utf-8"), height=700, scrolling=True)
     else:
