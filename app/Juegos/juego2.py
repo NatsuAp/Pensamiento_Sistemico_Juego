@@ -11,7 +11,7 @@ def deployJuego2():
     loadScratch()
     if st.button("Terminar"):
         st.session_state.j2 = True
-        setPage.page = "main"
+        st.session_state.page = "main"
         st.rerun()
 def loadScratch():
     html_path = Path("utils/Scratch/NEXUS SWAP.html")

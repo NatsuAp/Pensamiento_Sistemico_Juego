@@ -1,8 +1,7 @@
 import streamlit as st
 import json
-import streamlit.components.v1 as components
+
 import app.setPage as setPage
-from pathlib import Path
 
 def load_Preguntas1():
     with open("utils/Pregunas-Causalidad-Correlacion.json", "r", encoding="utf-8") as f:
@@ -85,10 +84,9 @@ def deployJuego1():
             st.write(str(correct) + "/" + "12")
             st.write("Nota: " + str((correct/12)*5))
             if st.button("Continuar"):
-                setPage.page = "main"
+                st.session_state.page = "main"
                 st.session_state.j1 = True
                 st.rerun()
-            ##Segundo Juego
             
             
         

@@ -12,7 +12,7 @@ def mainPage():
     if st.session_state.j1 == False:
     
         if st.button("Iniciar", key="k1"):
-            setPage.page = "juego1"
+            st.session_state.page = "juego1"
             st.rerun()
     else:
         st.button("Iniciar", disabled= True)
@@ -21,7 +21,8 @@ def mainPage():
     st.write("""##### 2. Polaridad""")
     if st.session_state.j2 == False:
         if st.button("Iniciar", key="k2"):
-            setPage.page = "juego2"
+            st.session_state.page = "juego2"
+            st.rerun()
     else:
         st.button("Iniciar", key="k3" ,disabled= True)
         st.write("""Ya terminaste este juego""")        
