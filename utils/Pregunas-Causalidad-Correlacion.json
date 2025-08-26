@@ -1,0 +1,75 @@
+[
+  {
+    "problema": "Consumo de cigarrillo → Cáncer de pulmón",
+    "opcion_a": "Causalidad",
+    "opcion_b": "Correlación",
+    "correcta": "Causalidad"
+  },
+  {
+    "problema": "Número de ventas de helados en verano → Número de personas en la playa",
+    "opcion_a": "Causalidad",
+    "opcion_b": "Correlación",
+    "correcta": "Correlación"
+  },
+  {
+    "problema": "Uso del cinturón de seguridad → Reducción de muertes en accidentes",
+    "opcion_a": "Causalidad",
+    "opcion_b": "Correlación",
+    "correcta": "Causalidad"
+  },
+  {
+    "problema": "Número de iglesias en una ciudad → Tasa de criminalidad",
+    "opcion_a": "Correlación",
+    "opcion_b": "Causalidad",
+    "correcta": "Correlación"
+  },
+  {
+    "problema": "Horas de estudio → Calificaciones en un examen",
+    "opcion_a": "Correlación",
+    "opcion_b": "Causalidad",
+    "correcta": "Causalidad"
+  },
+  {
+    "problema": "Número de películas que Nicolas Cage filma en un año → Cantidad de personas que se ahogan en piscinas ese año",
+    "opcion_a": "Correlación",
+    "opcion_b": "Causalidad",
+    "correcta": "Correlación"
+  },
+  {
+    "problema": "Ejercicio físico regular → Mejora de la salud cardiovascular",
+    "opcion_a": "Causalidad",
+    "opcion_b": "Correlación",
+    "correcta": "Causalidad"
+  },
+  {
+    "problema": "Consumo de chocolate per cápita en un país → Número de premios Nobel ganados",
+    "opcion_a": "Causalidad",
+    "opcion_b": "Correlación",
+    "correcta": "Correlación"
+  },
+  {
+    "problema": "Temperatura ambiental → Consumo de electricidad por aire acondicionado",
+    "opcion_a": "Correlación",
+    "opcion_b": "Causalidad",
+    "correcta": "Causalidad"
+  },
+  {
+    "problema": "Tamaño de la población de un país → Número de accidentes de tránsito",
+    "opcion_a": "Causalidad",
+    "opcion_b": "Correlación",
+    "correcta": "Correlación"
+  },
+  {
+    "problema": "Acceso a agua potable → Disminución de enfermedades intestinales",
+    "opcion_a": "Causalidad",
+    "opcion_b": "Correlación",
+    "correcta": "Causalidad"
+  },
+  {
+    "problema": "Tiempo que los estudiantes pasan en redes sociales → Nivel de estrés percibido",
+    "opcion_a": "Causalidad",
+    "opcion_b": "Correlación",
+    "correcta": "Correlación"
+  }
+
+]
