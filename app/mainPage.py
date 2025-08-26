@@ -1,6 +1,8 @@
 import streamlit as st
 import app.setPage as setPage
-
+def reset():
+    for key in list(st.session_state.keys()):
+        del st.session_state[key]
 def mainPage():
     st.title("Conexiones Sistémicas")
     st.write("""### Este proyecto consiste de dos juegos relacionados a los temas dados en la materia de Pensamiento sistémico""")
@@ -24,3 +26,6 @@ def mainPage():
         st.button("Iniciar", key="k3" ,disabled= True)
         st.write("""Ya terminaste este juego""")        
     st.write("---")
+    if st.button("Reiniciar"):
+        reset()
+        st.rerun()
