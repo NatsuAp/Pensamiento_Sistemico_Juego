@@ -69,7 +69,8 @@ def deployJuego1():
                     st.write(p["problema"])
                     st.write("Tu respuesta:")
                     st.write(st.session_state[res] )
-                
+                    st.write("Respuesta correcta: ")
+                    st.write(p["correcta"])
                     if st.session_state[res]== p["correcta"]:
                         st.badge("Correcto", icon=":material/check:", color="green")
                         correct+=1
