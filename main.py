@@ -1,23 +1,20 @@
-import app.setPage as setPage
+# app.py
 import streamlit as st
 from app.Juegos.juego1 import deployJuego1
 from app.Juegos.juego2 import deployJuego2
 from app.mainPage import mainPage
-if "j1" not in st.session_state:
-    st.session_state.j1 = False
-if "j2" not in st.session_state:
-    st.session_state.j2 = False
 
+# ---- estado por sesión ----
+st.session_state.setdefault("page", "main")
+st.session_state.setdefault("j1", False)
+st.session_state.setdefault("j2", False)
 
-   
+page = st.session_state.page
 
-print(setPage.page)
-match setPage.page:
-    case "main":
-        mainPage()
-        
-    case "juego1":
-        deployJuego1()
-    case "juego2":
-        deployJuego2()
-    
+# ---- router ----
+if page == "main":
+    mainPage()
+elif page == "juego1":
+    deployJuego1()
+elif page == "juego2":
+    deployJuego2()
